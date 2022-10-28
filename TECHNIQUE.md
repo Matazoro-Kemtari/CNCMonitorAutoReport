@@ -91,3 +91,11 @@ go install github.com/golang/mock/mockgen
 ```bash
 go get github.com/DATA-DOG/go-sqlmock
 ```
+
+#### エンコード
+
+[Re: Goでcsvを操作するための基本的な知識](https://zenn.dev/mattn/articles/fd545a14b0ffdf)
+
+```bash
+go get golang.org/x/text/encoding/japanese golang.org/x/text/transform
+```

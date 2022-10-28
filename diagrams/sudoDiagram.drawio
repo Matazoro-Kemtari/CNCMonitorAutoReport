@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="RzdB1_ECVK01WcsdOi-J" name="sodo">
-        <mxGraphModel dx="1374" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+        <mxGraphModel dx="1145" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -8,7 +8,7 @@
                     <mxGeometry x="200" y="870" width="300" height="430" as="geometry"/>
                 </mxCell>
                 <mxCell id="363" value="&lt;u&gt;ログ読み込み集約&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="10" y="970" width="180" height="300" as="geometry"/>
+                    <mxGeometry x="10" y="870" width="180" height="460" as="geometry"/>
                 </mxCell>
                 <mxCell id="240" value="&lt;u&gt;CNCモニタ自動レポート&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="800" y="50" width="210" height="270" as="geometry"/>
@@ -46,8 +46,8 @@
                 <mxCell id="122" value="今回開発する範囲" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="10" y="70" width="140" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="158" value="&lt;span&gt;・小型コンピュータRaspberry Piで定期的に実行する&lt;/span&gt;&lt;br&gt;&lt;span&gt;・スケジュールはリモートデスクトップ+タスクスケジューラを使用して、システム担当が編集する。&lt;/span&gt;&lt;br&gt;&lt;span&gt;・監視ソフトが作成したCSVファイルを読み込む&lt;/span&gt;&lt;br&gt;&lt;span&gt;・動作ログ・PDFをTeamsに送る&lt;br&gt;・NASのマウントは、事前に設定しておくこと。&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="35" y="420" width="505" height="130" as="geometry"/>
+                <mxCell id="158" value="&lt;span&gt;・小型コンピュータRaspberry Piで定期的に実行する&lt;/span&gt;&lt;br&gt;&lt;span&gt;・スケジュールはリモートデスクトップ+タスクスケジューラを使用して、システム担当が編集する。&lt;/span&gt;&lt;br&gt;&lt;span&gt;・監視ソフトが作成したCSVファイルを読み込む&lt;/span&gt;&lt;br&gt;&lt;span&gt;・動作ログ・PDFをTeamsに送る&lt;br&gt;・NASのマウントは、事前に設定しておくこと。&lt;br&gt;・&lt;/span&gt;ログ上の機械名とPDFに表示する機械名は、変えられる&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="35" y="420" width="505" height="190" as="geometry"/>
                 </mxCell>
                 <mxCell id="242" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" parent="1" source="238" target="241" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -91,11 +91,11 @@
                 <mxCell id="283" value="PDFを作成" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="815" y="203" width="180" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="511" style="edgeStyle=none;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="354" target="510">
+                <mxCell id="511" style="edgeStyle=none;html=1;endArrow=none;endFill=0;dashed=1;" parent="1" source="354" target="510" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="354" value="&lt;u&gt;CNC稼働レコード&lt;/u&gt;&lt;br&gt;(CNCMonitorRecord&lt;span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;日時&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;接続状態&lt;br&gt;&lt;/span&gt;プログラム名&lt;br style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;送り速度&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;回転速度&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;モード&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;自動運転状態&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;緊急停止&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="1107" width="127.5" height="153" as="geometry"/>
+                    <mxGeometry x="36.25" y="1158.5" width="127.5" height="153" as="geometry"/>
                 </mxCell>
                 <mxCell id="372" value="オブジェクト図" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="520" y="840" width="100" height="20" as="geometry"/>
@@ -113,7 +113,7 @@
                     <mxGeometry x="350" y="130" width="140" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="460" value="(CNC稼働レコード)&lt;br&gt;日時: yyyy/mm/dd 07:07:12&lt;br&gt;接続状態: 未接続接続(電源ON)&lt;br&gt;プログラム名: O9020&lt;br&gt;送り速度: 0&lt;br&gt;回転速度: 0&lt;br&gt;モード: 3&lt;br&gt;自動運転状態: 0&lt;br&gt;緊急停止: 0" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="560" y="1130" width="180" height="140" as="geometry"/>
+                    <mxGeometry x="710" y="881" width="180" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="466" style="edgeStyle=none;html=1;endArrow=none;endFill=0;startArrow=diamond;startFill=1;" parent="1" source="465" target="328" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -125,7 +125,7 @@
                     <mxGeometry x="550" y="881" width="100" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="328" value="(CNC稼働レコード)&lt;br&gt;日時: yyyy/mm/dd hh:mm:ss&lt;br&gt;接続状態: 未接続(電源OFF)&lt;br&gt;プログラム名:&lt;br&gt;送り速度:&lt;br&gt;回転速度:&lt;br&gt;モード:&lt;br&gt;自動運転状態:&lt;br&gt;緊急停止:" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="630" y="980" width="180" height="140" as="geometry"/>
+                    <mxGeometry x="620" y="1031" width="180" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="469" value="1" style="edgeStyle=none;html=1;startArrow=diamond;startFill=1;endArrow=none;endFill=0;" parent="1" source="468" target="354" edge="1">
                     <mxGeometry x="-0.3115" relative="1" as="geometry">
@@ -137,8 +137,21 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="468" value="&lt;u&gt;CNC稼働ログ&lt;/u&gt;&lt;br&gt;(CNCMonitorByMachine&lt;span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span&gt;設備名&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="28.75" y="1000" width="141.25" height="50" as="geometry"/>
+                <mxCell id="514" style="edgeStyle=none;html=1;endArrow=none;endFill=0;startArrow=diamond;startFill=1;" edge="1" parent="1" source="468" target="513">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="515" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="514">
+                    <mxGeometry x="0.7024" relative="1" as="geometry">
+                        <mxPoint y="4" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="516" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="514">
+                    <mxGeometry x="-0.307" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="468" value="&lt;u&gt;CNC稼働ログ&lt;/u&gt;&lt;br&gt;(CNCMonitorByMachine&lt;span&gt;)&lt;/span&gt;&lt;br&gt;CNC稼働ログ情報&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="28.76" y="1060" width="141.25" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="472" style="edgeStyle=none;html=1;startArrow=diamond;startFill=1;endArrow=none;endFill=0;" parent="1" source="471" target="461" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -277,10 +290,16 @@
                     <mxGeometry x="360" y="1111" width="130" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="507" value="&lt;span&gt;・運転状態は、「自動」「手動」「EDIT」「原点停止」「不明」&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="340" y="1330" width="150" height="80" as="geometry"/>
+                    <mxGeometry x="370" y="1270" width="150" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="510" value="&lt;span&gt;・前のレコードの日時が1分より大きい&lt;br&gt;・前のレコードから接続状態が変わった&lt;br&gt;・前のレコードからプログラム名が変わった&lt;br&gt;&lt;/span&gt;・前のレコードからモードが変わった&lt;br&gt;・前のレコードから自動運転状態が変わった&lt;br&gt;・前のレコードから緊急停止が変わった&lt;br&gt;&lt;span&gt;・10分以上送りと回転が停止した&lt;br&gt;・10分以上停止していた送りと回転が再開した&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="20" y="1350" width="280" height="220" as="geometry"/>
+                <mxCell id="510" value="&lt;span&gt;・グルーピング要件&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;・前のレコードの日時が1分より大きい&lt;br&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;・前のレコードから接続状態が変わった&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;・前のレコードからプログラム名が変わった&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;・前のレコードからモードが変わった&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;・前のレコードから自動運転状態が変わった&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;・前のレコードから緊急停止が変わった&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;・10分以上送りと回転が停止した&lt;br&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;・10分以上停止していた送りと回転が再開した&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="1470" width="360" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="512" value="(レポート設定)&lt;br&gt;工場名: 本社&lt;br&gt;設備名:&amp;nbsp;RB-260M&lt;br&gt;表示名:&amp;nbsp;RB-260M&lt;br&gt;IPアドレス: 192.168.0.1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#FFFF00;strokeColor=#2D7600;fontColor=#050505;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="1470" width="190" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="513" value="&lt;u&gt;CNC稼働ログ情報&lt;/u&gt;&lt;br&gt;(PickingCNCMonitor&lt;span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;日時&lt;br&gt;工場&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;IPアドレス&lt;br&gt;&lt;/font&gt;設備名" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="35.629999999999995" y="900" width="127.5" height="110" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

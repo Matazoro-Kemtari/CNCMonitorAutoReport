@@ -7,7 +7,11 @@
 	"settings": {
 		"cSpell.words": [
 			"cncmonitor",
+			"dataframe",
 			"gopkg",
+			"gota",
+			"Infoln",
+			"monitoredcsv",
 			"natefinch",
 			"Syncer"
 		],
