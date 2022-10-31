@@ -2,6 +2,7 @@ package cncmonitor
 
 // CNC稼働ログ
 type CNCMonitorByMachine interface {
+	PickingCNCMonitor
 	Records() []CNCMonitorRecord
 }
 

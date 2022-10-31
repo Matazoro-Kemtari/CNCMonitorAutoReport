@@ -8,12 +8,16 @@
 		"cSpell.words": [
 			"cncmonitor",
 			"dataframe",
+			"GOFILE",
+			"GOPACKAGE",
 			"gopkg",
 			"gota",
 			"Infoln",
+			"loadcsv",
 			"monitoredcsv",
 			"natefinch",
-			"Syncer"
+			"Syncer",
+			"testfactory"
 		],
 		"markdown-pdf.styles": [
 			"markdown.css"
